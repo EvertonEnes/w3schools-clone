@@ -172,16 +172,23 @@ html{
 
 .categorias{
     display: flex;
-    height: 30px;
+    height: 33px;
     gap: 0 20px;
     position: fixed;
-    top: 6%;
+    margin-top: 55px;
     width: 100%;
     background: #282a35;
+    z-index: 99;
+}
+
+.active-categorias{
+    background: #04aa6d;
+    color: white;
 }
 
 .btn-categorias{
     margin-left: 15px;
+    margin-top: 2px;
     height: 30px;
     width: auto;
     color: white;
@@ -235,3 +242,139 @@ html{
     background: #04aa6d;
     color: white; 
 }
+
+.conteudo{
+    display: block;
+    position: absolute;
+    width: 68%;
+    height: 300vh;
+    margin-left: 250px;
+    top: 10%;
+    font-family: roboto;
+    border-right: 1px solid #f1f1f1;   
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 27px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.botoes-home{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.btn-home{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    background: #04aa6d;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+    background: #04aa6d;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 36px
+}
+
+
+.caixa1{
+    background: #d9eee1;
+    height: 250px;
+    margin-top: 25px;
+    padding-top: 43px;
+    font-size: 16px;
+    padding-left: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.btn-caixa1{
+    background: #04aa6d;
+    color: white;
+    border: 0;
+    width: 280px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa2{
+    background: #e7e9eb;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 5px;
+    height: 475px;
+    margin-top: 30px;
+}
+
+.subtitulo2{
+    font-weight: 400;
+    margin-top: 52px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.titulo-caixa2{
+    position: relative;
+    top: 5%;
+    font-weight: 400;
+    margin-left: 17px;
+    font-size: 24px;
+}
+
+.back-code{
+    margin-top: 40px;
+    margin-left: 20px;
+    background: white;
+    height: 68%;
+    width: 1220px;
+    border-left: 4px solid #04aa6d;
+}
+
+.code{
+    padding: 4px;
+    font-size: 15px;
+}
+
+.btn-caixa2{
+    background: #04aa6d;
+    color: white;
+    border: 0;
+    width: 150px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
