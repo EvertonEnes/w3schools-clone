@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 'cabecalho cabecalho' 'categorias categorias' 'assunto conteudo' 'rodape rodape';
+}
+.container div:nth-child(1){
+    grid-area: cabecalho;
+}
+.container div:nth-child(2){
+    grid-area: categorias;
+}
+
+.container div:nth-child(3){
+    grid-area: assunto;
+}
+
+.container div:nth-child(4){
+    grid-area: conteudo;
+}
+.container div:nth-child(5){
+    grid-area: rodape;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: white;
+}
+
+.logo{
+    width: 38px;
+    height: 36px;
+    margin-left: 18px;
+}
+
+.menu-header{
+    display: flex;
+    margin-left: 27px;
+    gap: 12px;
+}
+
+.text-menu{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: Roboto;
+}
+
+.arrumar{
+    display: flex;
+}
+
+.seta{
+    margin-top: 6px;
+    margin-left: -14px;
+}
+
+.search-container{
+    position: relative;
+    display: flex;
+    padding: 10px 8px;
+    width: 175px;
+}
+
+.search{
+    position: relative;
+    display: block;
+    margin-left: 8px;
+    width: 200px;
+}
+
+.search-input{
+    border: 0;
+    padding: 5px 40px 5px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    border-radius: 25px;
+    height: 38px;
+    width: 175px;
+}
+
+.icone-search{
+    position: absolute;
+    right: -13px;
+    top: 10px;
+    padding: 8px;
+    text-align: center;
+    width: 35px;
+}
+
+.container-login{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    margin-right: 70px;
+}
+
+.container-pesonalizacao{
+    display: flex;
+}
+
+.menu-login{
+    display: flex;
+    position: relative;
+    gap: 28px;
+    margin-right: 14px;
+}
+
+.text-menu-login{
+    padding: 10px;
+    margin-top: 1px;
+    font-size: 1.5rem;
+    font-family: Roboto;
+}
+
+.container-botao{
+    display: flex;
+    position: relative;
+}
+
+.back-btn{
+    background: #04aa6d;
+    width: 93px;
+    height: 40px;
+    margin-right: -30px;
+    border-radius: 25px;
+    z-index: 99;
+}
+
+.back-btn2{
+    background: #d9eee1;
+    width: 103px;
+    height: 40px;
+    margin-right: -39px;
+    border-radius: 25px;
+}
+
+.btn-sign-up{
+    position: relative;
+    top: 30%;
+    left: 23%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+}
+
+.btn-login{
+    position: relative;
+    top: 30%;
+    left: 38%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-family: Roboto;
+}
+
+.categorias{
+    display: flex;
+    height: 30px;
+    gap: 0 20px;
+    position: fixed;
+    top: 6%;
+    width: 100%;
+    background: #282a35;
+}
+
+.btn-categorias{
+    margin-left: 15px;
+    height: 30px;
+    width: auto;
+    color: white;
+    background: #282a35;
+    border: 0;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.assunto{
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 25rem;
+    margin-top: 1px;
+    top: 9%;
+    overflow-y: scroll;
+    background: #e7e9eb;
+}
+
+.titulo-assunto{
+    margin-left: 1.6rem;
+    margin-top: 1.8rem;
+    font-size: 2.1rem;
+    font-family: roboto;
+}
+
+.text-assunto{
+    margin-top: 10px;
+    margin-left: 3.6rem;
+    font-size: 15px;
+    font-family: roboto;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.icone-assunto{
+    position: absolute;
+    font-size: 22px;
+    margin-top: -2px;
+    margin-left: -6px;
+    color: #d8dadc;
+    background: #e7e9eb;
+    left: 8%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.active{
+    height: 25px;
+    background: #04aa6d;
+    color: white; 
+}
