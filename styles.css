@@ -195,11 +195,15 @@ html{
     margin-top: 0.2rem;
     height: 3rem;
     width: auto;
-    color: white;
     background: #282a35;
     border: 0;
     font-family: Roboto;
     font-size: 1.4rem;
+}
+
+.link-categorias{
+    text-decoration: none;
+    color: white;
 }
 
 .assunto{
@@ -208,7 +212,7 @@ html{
     height: 100vh;
     width: 25rem;
     margin-top: 0.1rem;
-    top: 9%;
+    top: 12%;
     overflow-y: scroll;
     background: #e7e9eb;
 }
@@ -256,6 +260,12 @@ html{
     top: 10%;
     font-family: roboto;
     border-right: 1px solid #f1f1f1;   
+}
+
+.anuncio1{
+    max-width: 1000px;
+    margin-left: 13.5rem;
+    margin-top: 30px;
 }
 
 .titulo{
@@ -334,7 +344,7 @@ html{
     margin-left: 1%;
     border-radius: 5px;
     height: 47.5rem;
-    margin-top: 3rem;
+    margin-top: 7rem;
 }
 
 .subtitulo2{
@@ -359,7 +369,7 @@ html{
     margin-left: 2rem;
     background: white;
     height: 68%;
-    width: 122rem;
+    width: 94rem;
     border-left: 0.4rem solid #04aa6d;
 }
 
@@ -385,12 +395,83 @@ html{
     justify-content: center;
 }
 
+.texto{
+    font-weight: 400; 
+    /* letter-spacing: 1px;  */
+    font-size: 1.6rem; 
+    padding-left: 3rem;
+    max-width: 90rem;
+    position: absolute;
+}
+
 .anuncios{
     position: absolute;
-    display: flex;
+    display: block;
     justify-content: center;
-    right: 0%;
+    left: 78%;
     top: 14%;
     height: 100%;
-    width: 350px;
+    width: 35rem;
+}
+
+.anuncio1{
+    display: block;
+}
+
+.titulo2{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    font-size: 3.2rem; 
+    font-weight: 400;
+    font-family: "Segoe UI", Arial, sans-serif;
+} 
+
+.caixa3{
+    background: #282a35;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 5px;
+    height: 42rem;
+    margin-top: 7rem;
+}
+
+.titulo-caixa3{
+    position: relative;
+    top: 8%;
+    font-weight: 400;
+    margin-left: 1.7rem;
+    font-size: 2.4rem;
+}
+
+.back-info{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    background: white;
+    height: 75%;
+    width: 94rem;
+}
+
+.link-caixa3{
+    position: absolute;
+    margin-left: 1.3rem;
+    font-size: 17px;
+    margin-top: 30px;
+    color: black;
+}
+
+.link-anuncios{
+    text-decoration: none;
+    margin-left: 13px;
+    color: black;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.icones-redes{
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    margin-left: 130px;
+    margin-top: 110px;    
 }
